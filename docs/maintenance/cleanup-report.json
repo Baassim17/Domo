@@ -1,0 +1,28 @@
+{
+  "beforeBytes": 1133552308,
+  "afterBytes": 728826856,
+  "savedBytes": 404725452,
+  "reductionPercent": 35.70417078626777,
+  "removedPackages": 308,
+  "retainedRuntimeFilesVerified": 294,
+  "unusedPublicAssets": 0,
+  "checks": [
+    "lint",
+    "TypeScript",
+    "production build",
+    "11 page routes",
+    "11 route fragments",
+    "invalid email rejected",
+    "294 runtime files byte-identical"
+  ],
+  "preserved": [
+    "all referenced public assets",
+    "src/data/pages.json",
+    ".data enquiries",
+    "project agent instructions and active skills",
+    "LICENSE",
+    "production Dockerfile",
+    "CI workflow"
+  ],
+  "optionalTools": "tools/media (separate install)"
+}

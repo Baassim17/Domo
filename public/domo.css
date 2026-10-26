@@ -1,0 +1,10 @@
+/* Brand-specific additions; all source geometry and breakpoints are preserved. */
+#load .load-image { object-fit: contain; padding: 10%; }
+#nav-socials, #foo-social { display: none; }
+#h-name { inline-size: calc(104 * var(--icon-unit, 1px)); }
+@media (max-width: 700px) {
+  #h-name { inline-size: 92px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "site": {
+    "name": "Domo",
+    "description": "Where you can have a home, build for the future and move through life how you choose."
+  },
+  "routes": {
+    "/": {
+      "id": "home",
+      "template": "home",
+      "content": "homePage",
+      "fab": {
+        "page": "home"
+      },
+      "title": "Domo | A new way home",
+      "description": "Domo is a third housing option that lets you have a home and build wealth without a deposit or mortgage. Discover a new way home.",
+      "label": "Home",
+      "prefetch": true,
+      "status": 200
+    },
+    "/about": {
+      "id": "about",
+      "template": "about",
+      "content": "aboutPage",
+      "fab": {
+        "page": "about"
+      },
+      "title": "Why Domo | A third housing option",
+      "description": "Discover a third housing option that combines the stability of having a home with the opportunity to build wealth and freedom to move.",
+      "label": "About",
+      "prefetch": true,
+      "status": 200
+    },
+    "/about/video": {
+      "id": "about-video",
+      "template": "about",
+      "content": "aboutPage",
+      "story": "/about",
+      "fab": {
+        "page": "about"
+      },
+      "title": "Our story | Domo",
+      "description": "Discover why Domo was created and the thinking behind a new housing option designed for more choice, flexibility and growth.",
+      "label": null,
+      "prefetch": true,
+      "status": 200
+    },
+    "/how-it-works": {
+      "id": "how-it-works",
+      "template": "how-it-works",
+      "content": "howItWorksPage",
+      "fab": {
+        "page": "how-it-works"
+      },
+      "title": "How Domo works | A new way home",
+      "description": "See how Domo works, from moving into your home and making monthly payments to building your stake and choosing what comes next.",
+      "label": "How it works",
+      "prefetch": true,
+      "status": 200
+    },
+    "/how-it-works/video": {
+      "id": "how-it-works-video",
+      "template": "how-it-works",
+      "content": "howItWorksPage",
+      "story": "/how-it-works",
+      "fab": {
+        "page": "how-it-works"
+      },
+      "title": "How Domo works | A new way home",
+      "description": "See how Domo works, from moving into your home and making monthly payments to building your stake and choosing what comes next.",
+      "label": null,
+      "prefetch": true,
+      "status": 200
+    },
+    "/faqs": {
+      "id": "faqs",
+      "template": "faqs",
+      "content": "faqsPage",
+      "title": "Domo FAQs | Your questions answered",
+      "description": "Find answers to common questions about Domo, including payments, building wealth, moving home, making it your own and more.",
+      "label": "FAQs",
+      "prefetch": true,
+      "status": 200
+    },
+    "/trades": {
+      "id": "trades",
+      "template": "trades",
+      "content": "tradesPage",
+      "fab": {
+        "page": "trades",
+        "label": "Join Trade Network",
+        "tab": "trades"
+      },
+      "title": "Work with Domo | For trades",
+      "description": "Join Domo’s trade network for a consistent pipeline of work, matched to your skills and location, with less admin along the way.",
+      "label": "Trades",
+      "prefetch": true,
+      "status": 200
+    },
+    "/home-builder": {
+      "id": "home-builder",
+      "template": "home-builder",
+      "content": "homeBuilderPage",
+      "title": "Build your home | Domo",
+      "description": "Use our interactive home builder to explore your options, configure your Domo home and see what yours could look like.",
+      "label": "Home Builder",
+      "prefetch": true,
+      "status": 200
+    },
+    "/privacy-policy": {
+      "id": "privacy-policy",
+      "template": "privacy-policy",
+      "content": "privacyPolicyPage",
+      "title": "Privacy Policy — Domo",
+      "label": "Privacy Policy",
+      "prefetch": true,
+      "status": 200,
+      "description": "Where you can have a home, build for the future and move through life how you choose."
+    },
+    "/terms-of-service": {
+      "id": "terms-of-service",
+      "template": "terms-of-service",
+      "content": "termsOfServicePage",
+      "title": "Terms of Service — Domo",
+      "label": "Terms of Service",
+      "prefetch": true,
+      "status": 200,
+      "description": "Where you can have a home, build for the future and move through life how you choose."
+    },
+    "/404": {
+      "id": "not-found",
+      "template": "not-found",
+      "title": "Page not found — Domo",
+      "label": null,
+      "prefetch": false,
+      "status": 404,
+      "description": "Where you can have a home, build for the future and move through life how you choose."
+    }
+  },
+  "footerAnimation": {
+    "timeZone": "Australia/Melbourne",
+    "states": [
+      {
+        "key": "sunrise",
+        "name": "Sunrise",
+        "start": 360,
+        "video": "/videos/motion-6bae70675781.mp4",
+        "mobileVideo": "/videos/motion-a962893c3207.mp4",
+        "transition": "/videos/motion-ee3fb7a37153.mp4",
+        "mobileTransition": "/videos/motion-f990d6b7edb2.mp4",
+        "tone": "dark"
+      },
+      {
+        "key": "morning",
+        "name": "Morning",
+        "start": 480,
+        "video": "/videos/motion-5543fac2b6a0.mp4",
+        "mobileVideo": "/videos/motion-9400cb0148fe.mp4",
+        "transition": "/videos/motion-fb1095136937.mp4",
+        "mobileTransition": "/videos/motion-ba9094715806.mp4",
+        "tone": "dark"
+      },
+      {
+        "key": "daytime",
+        "name": "Daytime",
+        "start": 540,
+        "video": "/videos/motion-20b92a16e701.mp4",
+        "mobileVideo": "/videos/motion-121df03dec1d.mp4",
+        "transition": "/videos/motion-6776179e31ac.mp4",
+        "mobileTransition": "/videos/motion-beaedcceb534.mp4",
+        "tone": "dark"
+      },
+      {
+        "key": "afternoon",
+        "name": "Afternoon",
+        "start": 900,
+        "video": "/videos/motion-d124e83218ac.mp4",
+        "mobileVideo": "/videos/motion-4b42ea0d1245.mp4",
+        "transition": "/videos/motion-48887e8dd561.mp4",
+        "mobileTransition": "/videos/motion-ad5dbb54113d.mp4",
+        "tone": "dark"
+      },
+      {
+        "key": "dusk",
+        "name": "Dusk",
+        "start": 1020,
+        "video": "/videos/motion-ae88c032c268.mp4",
+        "mobileVideo": "/videos/motion-6dff5f9ef7e3.mp4",
+        "transition": null,
+        "mobileTransition": null,
+        "tone": "light"
+      },
+      {
+        "key": "night",
+        "name": "Night",
+        "start": 1080,
+        "video": "/videos/motion-4102e9e3de90.mp4",
+        "mobileVideo": "/videos/motion-8190aef53c6c.mp4",
+        "transition": "/videos/motion-0fc3a4fe8c34.mp4",
+        "mobileTransition": "/videos/motion-a5862cd45301.mp4",
+        "tone": "light"
+      }
+    ]
+  },
+  "stepTimestamps": [
+    3.256,
+    7.275,
+    13.128
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "site": {
+    "name": "Dwell",
+    "description": "Where you can have a home, build for the future and move through life how you choose."
+  },
+  "routes": {
+    "/": {
+      "id": "home",
+      "template": "home",
+      "content": "homePage",
+      "fab": {
+        "page": "home"
+      },
+      "title": "Dwell | A new way home",
+      "description": "Dwell is a third housing option that lets you have a home and build wealth without a deposit or mortgage. Discover a new way home.",
+      "label": "Home",
+      "prefetch": true,
+      "status": 200
+    },
+    "/about": {
+      "id": "about",
+      "template": "about",
+      "content": "aboutPage",
+      "fab": {
+        "page": "about"
+      },
+      "title": "Why Dwell | A third housing option",
+      "description": "Discover a third housing option that combines the stability of having a home with the opportunity to build wealth and freedom to move.",
+      "label": "About",
+      "prefetch": true,
+      "status": 200
+    },
+    "/about/video": {
+      "id": "about-video",
+      "template": "about",
+      "content": "aboutPage",
+      "story": "/about",
+      "fab": {
+        "page": "about"
+      },
+      "title": "Our story | Dwell",
+      "description": "Discover why Dwell was created and the thinking behind a new housing option designed for more choice, flexibility and growth.",
+      "label": null,
+      "prefetch": true,
+      "status": 200
+    },
+    "/how-it-works": {
+      "id": "how-it-works",
+      "template": "how-it-works",
+      "content": "howItWorksPage",
+      "fab": {
+        "page": "how-it-works"
+      },
+      "title": "How Dwell works | A new way home",
+      "description": "See how Dwell works, from moving into your home and making monthly payments to building your stake and choosing what comes next.",
+      "label": "How it works",
+      "prefetch": true,
+      "status": 200
+    },
+    "/how-it-works/video": {
+      "id": "how-it-works-video",
+      "template": "how-it-works",
+      "content": "howItWorksPage",
+      "story": "/how-it-works",
+      "fab": {
+        "page": "how-it-works"
+      },
+      "title": "How Dwell works | A new way home",
+      "description": "See how Dwell works, from moving into your home and making monthly payments to building your stake and choosing what comes next.",
+      "label": null,
+      "prefetch": true,
+      "status": 200
+    },
+    "/faqs": {
+      "id": "faqs",
+      "template": "faqs",
+      "content": "faqsPage",
+      "title": "Dwell FAQs | Your questions answered",
+      "description": "Find answers to common questions about Dwell, including payments, building wealth, moving home, making it your own and more.",
+      "label": "FAQs",
+      "prefetch": true,
+      "status": 200
+    },
+    "/trades": {
+      "id": "trades",
+      "template": "trades",
+      "content": "tradesPage",
+      "fab": {
+        "page": "trades",
+        "label": "Join Trade Network",
+        "tab": "trades"
+      },
+      "title": "Work with Dwell | For trades",
+      "description": "Join Dwell’s trade network for a consistent pipeline of work, matched to your skills and location, with less admin along the way.",
+      "label": "Trades",
+      "prefetch": true,
+      "status": 200
+    },
+    "/home-builder": {
+      "id": "home-builder",
+      "template": "home-builder",
+      "content": "homeBuilderPage",
+      "title": "Build your home | Dwell",
+      "description": "Use our interactive home builder to explore your options, configure your Dwell home and see what yours could look like.",
+      "label": "Home Builder",
+      "prefetch": true,
+      "status": 200
+    },
+    "/privacy-policy": {
+      "id": "privacy-policy",
+      "template": "privacy-policy",
+      "content": "privacyPolicyPage",
+      "title": "Privacy Policy — Dwell",
+      "label": "Privacy Policy",
+      "prefetch": true,
+      "status": 200,
+      "description": "Where you can have a home, build for the future and move through life how you choose."
+    },
+    "/terms-of-service": {
+      "id": "terms-of-service",
+      "template": "terms-of-service",
+      "content": "termsOfServicePage",
+      "title": "Terms of Service — Dwell",
+      "label": "Terms of Service",
+      "prefetch": true,
+      "status": 200,
+      "description": "Where you can have a home, build for the future and move through life how you choose."
+    },
+    "/404": {
+      "id": "not-found",
+      "template": "not-found",
+      "title": "Page not found — Dwell",
+      "label": null,
+      "prefetch": false,
+      "status": 404,
+      "description": "Where you can have a home, build for the future and move through life how you choose."
+    }
+  },
+  "footerAnimation": {
+    "timeZone": "Australia/Melbourne",
+    "states": [
+      {
+        "key": "sunrise",
+        "name": "Sunrise",
+        "start": 360,
+        "video": "https://player.vimeo.com/progressive_redirect/playback/1231996272/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=42e1147e3d7ac31dcd28c4384127b68d582e5ef53471a0c00fe59b1427ec3f78",
+        "mobileVideo": "https://player.vimeo.com/progressive_redirect/playback/1231997102/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=d007a924de9741e3ccd754b7bc596480cce2d8cd0c8513ea05210e3a7cd1425f",
+        "transition": "https://player.vimeo.com/progressive_redirect/playback/1231996274/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=c0722a58f0eb0759f05d3562bebd0c328e069651191995a53594f98d8c223bd1",
+        "mobileTransition": "https://player.vimeo.com/progressive_redirect/playback/1231997104/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=fd0ab988661702fa1ae3c768ebc2187bb933df43ace31dc851f43e6e1efebdf0",
+        "tone": "dark"
+      },
+      {
+        "key": "morning",
+        "name": "Morning",
+        "start": 480,
+        "video": "https://player.vimeo.com/progressive_redirect/playback/1231996322/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=b0072cdc73a965a54342b025e64ada58e30410f9e3cf1aac13320d8e30f91895",
+        "mobileVideo": "https://player.vimeo.com/progressive_redirect/playback/1231997150/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=83d9ce2841aff697a0836b6bcfae2cf6a49b172e819f74f567aaff567e6f31bc",
+        "transition": "https://player.vimeo.com/progressive_redirect/playback/1231996327/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=a3bbbc876509709dde5adc1aa6badabbda573ffbeb85dd720de696c0f4edc735",
+        "mobileTransition": "https://player.vimeo.com/progressive_redirect/playback/1231997155/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=88101b90c5339d1943c511b3c90bb6324dec50e9efff66711f77849912a46432",
+        "tone": "dark"
+      },
+      {
+        "key": "daytime",
+        "name": "Daytime",
+        "start": 540,
+        "video": "https://player.vimeo.com/progressive_redirect/playback/1231996329/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=055a144861e155631af31d523f802f3fa49b63bf7a51db97c04a0cf998a238c4",
+        "mobileVideo": "https://player.vimeo.com/progressive_redirect/playback/1231997156/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=6aa3bf0e60eb95e175913207961cc5ad645c75f1e2cb7c06bf5a360814196c59",
+        "transition": "https://player.vimeo.com/progressive_redirect/playback/1231996333/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=ef6048ba0bb22c21cba6eb964bcd085aabad4e09f94805f7251822444c44fe29",
+        "mobileTransition": "https://player.vimeo.com/progressive_redirect/playback/1231997162/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=30d9eb943361a8b8c6959e8c6627e9328a8a804f00dfebbd0d07d79b776fb0b0",
+        "tone": "dark"
+      },
+      {
+        "key": "afternoon",
+        "name": "Afternoon",
+        "start": 900,
+        "video": "https://player.vimeo.com/progressive_redirect/playback/1231996393/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=187f5368be03b9cb687445e7097285bc7116ebbc05197603d1397ebed8bb39b2",
+        "mobileVideo": "https://player.vimeo.com/progressive_redirect/playback/1231997233/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=a95bdb7aa0d099608455770c072ecd1704222c8dfd3b4b334f175e048012d800",
+        "transition": "https://player.vimeo.com/progressive_redirect/playback/1231996394/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=c4c66b883bfeb9d50b1df990c4b865ebc0e5bd85e986582b67323161c743e106",
+        "mobileTransition": "https://player.vimeo.com/progressive_redirect/playback/1231997239/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=c61f5221465484602539523a81f89aaca5797349b9a395c36482773e5c28e3cd",
+        "tone": "dark"
+      },
+      {
+        "key": "dusk",
+        "name": "Dusk",
+        "start": 1020,
+        "video": "https://player.vimeo.com/progressive_redirect/playback/1231996398/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=e9f7762787c76aa52afcf8ed54f86b1f2aec73dc1ec3d05892821ad78a60e480",
+        "mobileVideo": "https://player.vimeo.com/progressive_redirect/playback/1231997253/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=62a5ae0aca8b6e5c4218b4087189ceeb2069995a4233466fdccfe2fc6616594c",
+        "transition": null,
+        "mobileTransition": null,
+        "tone": "light"
+      },
+      {
+        "key": "night",
+        "name": "Night",
+        "start": 1080,
+        "video": "https://player.vimeo.com/progressive_redirect/playback/1231996275/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=88fa00bf5957546ef2d7c9258e38b0a7727423672dae240ce76cbee5a867548a",
+        "mobileVideo": "https://player.vimeo.com/progressive_redirect/playback/1231997101/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=77e708edc13092b99b65f538eea5388c2348d7323320f7623e31c9814674ca3b",
+        "transition": "https://player.vimeo.com/progressive_redirect/playback/1231996276/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=da928e99687f37dd79b4dd1e46db8effc667af0df733bb74f66e2968c61beb2e",
+        "mobileTransition": "https://player.vimeo.com/progressive_redirect/playback/1231997103/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=856ab73190622ef2facf9b7d963d770fe46ac157541edbdcdad9bdaf7ea12d14",
+        "tone": "light"
+      }
+    ]
+  },
+  "stepTimestamps": [
+    3.256,
+    7.275,
+    13.128
+  ]
+}
